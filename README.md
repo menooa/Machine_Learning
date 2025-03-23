@@ -1,7 +1,7 @@
 # Machine_Learning
 
 ## Overview
-This repository contains a collection of Jupyter notebooks implementing various machine learning models and algorithms. Each notebook demonstrates a different technique, from basic regression to advanced neural networks using both scikit-learn, Keras, and PyTorch.
+This repository contains a collection of Jupyter notebooks implementing various machine learning models and algorithms. Each notebook demonstrates a different technique, from basic regression to advanced neural networks using scikit-learn, Keras, and PyTorch.
 
 ## 🧠 Skills Demonstrated
 
@@ -17,8 +17,10 @@ This repository contains a collection of Jupyter notebooks implementing various 
 The repository includes implementation of various machine learning algorithms in Jupyter notebooks:
 
 ```
+├── 01_classification.ipynb
 ├── 01_simple_linear_regression.ipynb
-├── 02_multiple_linear_regression.ipynb
+├── 02_1_multiple_linear_regression_insurance_Updated.ipynb
+├── 02_2_multiple_linear_regression.ipynb
 ├── 03_KNN.ipynb
 ├── 04_decisionTree.ipynb
 ├── 04_decisionTree2.ipynb
@@ -36,6 +38,9 @@ The repository includes implementation of various machine learning algorithms in
 ├── 16_LogisticReg_PyTorch.ipynb
 ├── 17_NeuralNetworkRegression_PyTorch.ipynb
 ├── 18_NeuralNetworkClassification_PyTorch.ipynb
+├── 19_GenAI_Clinical_Documentation_Summarization.ipynb
+├── 20_GenAI_patientText_toSpecialty.ipynb
+├── 21_Tokenization.ipynb
 └── README.md
 ```
 
@@ -62,12 +67,17 @@ The repository includes implementation of various machine learning algorithms in
 - **Neural Network for Regression**: Deep learning regression models
 - **Neural Network for Classification**: Multi-class classification models
 
+### Generative AI Applications
+- **Clinical Documentation Summarization**: Using generative AI for medical text summarization
+- **Patient Text to Specialty Classification**: Identifying relevant medical specialties from patient descriptions
+- **Natural Language Processing**: Text tokenization and processing techniques
+
 ## 🔧 Getting Started
 
 ### Prerequisites
 - Python 3.6 or higher
 - Jupyter Notebook or JupyterLab
-- Required packages: numpy, pandas, scikit-learn, matplotlib, seaborn, tensorflow, keras, torch
+- Required packages: numpy, pandas, scikit-learn, matplotlib, seaborn, tensorflow, keras, torch, transformers
 
 ### Installation
 ```bash
@@ -78,7 +88,7 @@ git clone https://github.com/menooa/Machine_Learning.git
 cd Machine_Learning
 
 # Install required packages
-pip install numpy pandas scikit-learn matplotlib seaborn tensorflow keras torch
+pip install numpy pandas scikit-learn matplotlib seaborn tensorflow keras torch transformers
 ```
 
 ### Running the Notebooks
@@ -88,8 +98,6 @@ You can run the notebooks locally with Jupyter or use Google Colab:
 # Launch Jupyter Notebook
 jupyter notebook
 ```
-
-Or click the "Open in Colab" button available in the repository.
 
 ## 📊 Learning Path
 
@@ -109,12 +117,18 @@ This repository follows a progressive learning path:
    - Custom model architectures
    - PyTorch implementations for various tasks
 
+4. **Generative AI and NLP**:
+   - Text processing and tokenization
+   - Clinical documentation summarization
+   - Specialty classification from patient text
+
 ## 💼 Skills Developed
 
 Working through these notebooks helps develop skills relevant to several data science roles:
 - **Machine Learning Engineer**: Implementing and optimizing various models
 - **Data Scientist**: Performing data analysis and model selection
 - **Deep Learning Engineer**: Building neural networks in multiple frameworks
+- **Healthcare AI Specialist**: Applying AI to medical text analysis and classification
 
 ## 📝 Purpose
 
@@ -123,7 +137,8 @@ This repository serves as:
 - A reference for implementing ML algorithms
 - A portfolio demonstrating practical machine learning skills
 - A collection of reusable code examples for data science projects
+- A showcase of AI applications in healthcare documentation
 
 ---
 
-This repository includes implementations of various machine learning algorithms using scikit-learn, Keras, and PyTorch, progressing from basic regression to advanced neural networks.
+This repository includes implementations of various machine learning algorithms using scikit-learn, Keras, and PyTorch, progressing from basic regression to advanced neural networks and generative AI applications in healthcare.
