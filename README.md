@@ -14,35 +14,7 @@ This repository contains a collection of Jupyter notebooks implementing various 
 
 ## 📂 Repository Contents
 
-The repository includes implementation of various machine learning algorithms in Jupyter notebooks:
-
-```
-├── 01_classification.ipynb
-├── 01_simple_linear_regression.ipynb
-├── 02_1_multiple_linear_regression_insurance_Updated.ipynb
-├── 02_2_multiple_linear_regression.ipynb
-├── 03_KNN.ipynb
-├── 04_decisionTree.ipynb
-├── 04_decisionTree2.ipynb
-├── 05_regressionTree.ipynb
-├── 06_logisticRegression.ipynb
-├── 07_SVM.ipynb
-├── 08_k-Means Clustering.ipynb
-├── 09_Classification_with_Keras.ipynb
-├── 10_Regression_with_Keras.ipynb
-├── 11_Convolutional Neural Networks with Keras.ipynb
-├── 12_Implementing the Functional API in Keras.ipynb
-├── 13_Creating Custom Layers and Models.ipynb
-├── 14_LinearRegression_PyTorch.ipynb
-├── 15_LinearRegression_MultipleTargets_PyTorch.ipynb
-├── 16_LogisticReg_PyTorch.ipynb
-├── 17_NeuralNetworkRegression_PyTorch.ipynb
-├── 18_NeuralNetworkClassification_PyTorch.ipynb
-├── 19_GenAI_Clinical_Documentation_Summarization.ipynb
-├── 20_GenAI_patientText_toSpecialty.ipynb
-├── 21_Tokenization.ipynb
-└── README.md
-```
+The repository includes implementation of various machine learning algorithms in Jupyter notebooks
 
 ## 🚀 Models Implemented
 
